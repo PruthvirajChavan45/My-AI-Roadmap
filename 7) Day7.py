@@ -1,4 +1,3 @@
-
 """....2) while loop...."""
 #         - works on the basis of condition
 #         - this loop will stop when the 
@@ -76,4 +75,5 @@ while i < 5:
 # 2
 # 4
 # 5
+
 
