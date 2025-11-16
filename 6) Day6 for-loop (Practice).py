@@ -1,4 +1,3 @@
-
 """For-loop Practice Set"""
 
 #.....1) Print Hello World n times. .....
@@ -148,5 +147,6 @@ for i in range(2,n):
         break 
 else: 
     print("Your number is prime")
+
 
 
