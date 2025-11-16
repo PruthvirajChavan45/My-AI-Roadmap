@@ -1,5 +1,3 @@
-
-
 """......Loops......"""
 # when we want to perform repetitive task we use loops.
 # ...types of loops: 
@@ -55,4 +53,3 @@ for i in range(len(name)):
 #   4 H
 #   5 V
 #   6 I
-
