@@ -1,5 +1,3 @@
-
-
 """while-loop Practice Set"""
 
 #.....1) Print Each Digit (Revese Order).....
@@ -86,10 +84,6 @@ if extract == copy:
     print("Your number is automorphic")
 else: 
     print("Your number is not automorphic")
-
-
-
-
 
 
 
