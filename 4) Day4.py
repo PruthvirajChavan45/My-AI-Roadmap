@@ -1,5 +1,3 @@
-
-
 """............. Conditional Statement ............"""
 
 #....1) If and Else....
@@ -42,6 +40,7 @@ else:
 #.....Output.....
 
 #Negative number
+
 
 
 
