@@ -1,5 +1,5 @@
 
-"""....Fnction...."""
+"""....Function...."""
 
 # def hello():        #defining the function using (def) keyword
 #     print("Hello, How Are You")
@@ -54,8 +54,5 @@ def welcome(name="Guest"):
 
 welcome()             # uses default → Guest
 welcome("Pruthviraj") # overrides default → Pruthviraj
-
-
-
 
 
