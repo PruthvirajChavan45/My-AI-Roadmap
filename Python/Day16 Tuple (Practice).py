@@ -102,6 +102,3 @@ for i in t:
     if i not in unique: 
         unique.append(i)
 print(tuple(unique))
-
-
-
