@@ -44,7 +44,26 @@
 
 """.....6) Find the maximum and minimum element in a tuple of numbers."""
 
-t = (10,45,67,34,75,79,30,90,42,53)
-print(f"maximum : {max(t)} and minimum : {min(t)}")
+# t = (10,45,67,34,75,79,30,90,42,53)
+# print(f"maximum : {max(t)} and minimum : {min(t)}")
+
+
+""".....7) Convert a tuple to a list, modify the list, and convert it back to a tuple."""
+
+# t = (10,20,30,40)
+# lst = list(t)
+# lst.append(50)
+# lst.append(60)
+# lst.append(70)
+# print(tuple(lst))
+
+
+""".....8) Unpack a tuple of 4 values into 4 variables and print them."""
+
+t = (10,20,30,40)
+a,b,c,d = t
+print(a,b,c,d)
+
+
 
 
