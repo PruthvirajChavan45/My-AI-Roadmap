@@ -116,20 +116,29 @@
 
 """.....13) Check if all elements in a tuple are integers."""
 
-t = (10, 23.54, 45, 95, "Pruthviraj")
+# t = (10, 23.54, 45, 95, "Pruthviraj")
 
-all_integers = True
+# all_integers = True
 
-for item in t:
-    if not isinstance(item, int):
-        all_integers = False
-        break
+# for item in t:
+#     if not isinstance(item, int):
+#         all_integers = False
+#         break
 
-if all_integers:
-    print("All elements are integers")
-else:
-    print("Not all elements are integers")
+# if all_integers:
+#     print("All elements are integers")
+# else:
+#     print("Not all elements are integers")
 
 
+
+""".....14) Given a tuple of tuples, print all the elements individually.."""
+# ((1,2), (3,4), (5,6))
+
+t = ((1,2), (3,4), (5,6))
+for inner in t: 
+    for i in inner: 
+        print(i) 
+    
 
 
