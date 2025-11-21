@@ -30,9 +30,21 @@
 
 """.....4) Concatenate two tuples and print the result."""
 
-t1 = (10,20,30)
-t2 = (40,50,60)
+# t1 = (10,20,30)
+# t2 = (40,50,60)
 
-print(t1 + t2)
+# print(t1 + t2)
+
+
+""".....5) Repeat a tuple 3 times using the * operator."""
+
+# t = (10,20,30,40,50)
+# print(t * 3)
+
+
+""".....6) Find the maximum and minimum element in a tuple of numbers."""
+
+t = (10,45,67,34,75,79,30,90,42,53)
+print(f"maximum : {max(t)} and minimum : {min(t)}")
 
 
