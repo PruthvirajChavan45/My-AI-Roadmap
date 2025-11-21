@@ -67,17 +67,41 @@
 
 """.....9) Swap two tuples without using a third variable."""
 
-t1 = (10, 20, 30)
-t2 = (40, 50, 60)
+# t1 = (10, 20, 30)
+# t2 = (40, 50, 60)
 
-print("Before swapping:")
-print("t1 =", t1)
-print("t2 =", t2)
+# print("Before swapping:")
+# print("t1 =", t1)
+# print("t2 =", t2)
 
-t1, t2 = t2, t1  
+# t1, t2 = t2, t1  
 
-print("After swapping:")
-print("t1 =", t1)
-print("t2 =", t2)
+# print("After swapping:")
+# print("t1 =", t1)
+# print("t2 =", t2)
+
+
+""".....10) Check if two tuples are equal or not."""
+
+# t1 = (10,20,30,40)
+# t2 = (10,20,30,40)
+
+# if t1 == t2: 
+#     print("Both tuples are equal")
+# else: 
+#     print("Both tuples are not equal")
+
+
+""".....11) Remove all duplicate elements from a tuple."""
+# (Result must still be a tuple)
+
+t = (1,2,3,2,4,2,4,5)
+unique = []
+
+for i in t: 
+    if i not in unique: 
+        unique.append(i)
+print(tuple(unique))
+
 
 
