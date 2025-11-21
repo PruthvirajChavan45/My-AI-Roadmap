@@ -60,10 +60,24 @@
 
 """.....8) Unpack a tuple of 4 values into 4 variables and print them."""
 
-t = (10,20,30,40)
-a,b,c,d = t
-print(a,b,c,d)
+# t = (10,20,30,40)
+# a,b,c,d = t
+# print(a,b,c,d)
 
 
+""".....9) Swap two tuples without using a third variable."""
+
+t1 = (10, 20, 30)
+t2 = (40, 50, 60)
+
+print("Before swapping:")
+print("t1 =", t1)
+print("t2 =", t2)
+
+t1, t2 = t2, t1  
+
+print("After swapping:")
+print("t1 =", t1)
+print("t2 =", t2)
 
 
