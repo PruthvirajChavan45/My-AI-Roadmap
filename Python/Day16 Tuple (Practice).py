@@ -17,15 +17,22 @@
 
 """.....3) Check whether an element exists in a tuple."""
 
-t = (10,23,45,3,5,35,34,78)
-a = 34
+# t = (10,23,45,3,5,35,34,78)
+# a = 34
 
-for i in range(len(t)): 
-    if t[i] == a: 
-        print("this element exists in the tuple")
-        break
-else: 
-    print("this element does not exist in the tuple")
+# for i in range(len(t)): 
+#     if t[i] == a: 
+#         print("this element exists in the tuple")
+#         break
+# else: 
+#     print("this element does not exist in the tuple")
 
+
+""".....4) Concatenate two tuples and print the result."""
+
+t1 = (10,20,30)
+t2 = (40,50,60)
+
+print(t1 + t2)
 
 
