@@ -106,10 +106,30 @@
 
 """.....12) Find the sum and average of all elements in a tuple."""
 
-t = (10,20,30,40,50)
-sum = 0
+# t = (10,20,30,40,50)
+# sum = 0
 
-for i in range(len(t)): 
-    sum = sum + t[i]
-print(f"Sum : {sum} and Average : {sum/len(t)}")
+# for i in range(len(t)): 
+#     sum = sum + t[i]
+# print(f"Sum : {sum} and Average : {sum/len(t)}")
+
+
+""".....13) Check if all elements in a tuple are integers."""
+
+t = (10, 23.54, 45, 95, "Pruthviraj")
+
+all_integers = True
+
+for item in t:
+    if not isinstance(item, int):
+        all_integers = False
+        break
+
+if all_integers:
+    print("All elements are integers")
+else:
+    print("Not all elements are integers")
+
+
+
 
