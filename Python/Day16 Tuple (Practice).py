@@ -95,10 +95,21 @@
 """.....11) Remove all duplicate elements from a tuple."""
 # (Result must still be a tuple)
 
-t = (1,2,3,2,4,2,4,5)
-unique = []
+# t = (1,2,3,2,4,2,4,5)
+# unique = []
 
-for i in t: 
-    if i not in unique: 
-        unique.append(i)
-print(tuple(unique))
+# for i in t: 
+#     if i not in unique: 
+#         unique.append(i)
+# print(tuple(unique))
+
+
+""".....12) Find the sum and average of all elements in a tuple."""
+
+t = (10,20,30,40,50)
+sum = 0
+
+for i in range(len(t)): 
+    sum = sum + t[i]
+print(f"Sum : {sum} and Average : {sum/len(t)}")
+
