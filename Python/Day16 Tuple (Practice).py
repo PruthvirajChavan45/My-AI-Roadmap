@@ -132,13 +132,28 @@
 
 
 
-""".....14) Given a tuple of tuples, print all the elements individually.."""
+""".....14) Given a tuple of tuples, print all the elements individually."""
 # ((1,2), (3,4), (5,6))
 
-t = ((1,2), (3,4), (5,6))
-for inner in t: 
-    for i in inner: 
-        print(i) 
+# t = ((1,2), (3,4), (5,6))
+# for inner in t: 
+#     for i in inner: 
+#         print(i) 
     
 
 
+""".....15) Find the element with the highest frequency in a tuple."""
+
+t = (1,1,2,3,4,4,5,3,2,3,3,3,2)
+
+max_count = 0
+max_element = None
+
+for x in t:
+    c = t.count(x)
+    if c > max_count:
+        max_count = c
+        max_element = x
+
+print("Element with highest frequency:", max_element)
+print("Frequency:", max_count)
