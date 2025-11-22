@@ -16,3 +16,15 @@
 # 4) Mutable - You can add or remove elements
 # 5) Mixed data allowed	- Integers, strings, floats, etc.
 
+
+"""....Example...."""
+
+s = {10, 20, 30, 20, 30}
+print(s)
+
+#....output.....
+{10, 20, 30}
+
+#   - Duplicates are automatically removed.
+
+
