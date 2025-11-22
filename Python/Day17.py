@@ -30,12 +30,18 @@
 
 """....Creating a Set...."""
 
-s = {1, 2, 3}
+# s = {1, 2, 3}
 
-#.....Empty set : 
+# #.....Empty set : 
 
-s = set()      # correct
-s = {}         # ❌ creates dictionary, not set
+# s = set()      # correct
+# s = {}         # ❌ creates dictionary, not set
 
 
+"""....Set Traversing...."""
+
+#   - Traverse on the basis of values - it will run on the basis 
+#       of hash values.
+#   - unordered traversing always. 
+#   - No index values so no traversing on the basis of index.
 
