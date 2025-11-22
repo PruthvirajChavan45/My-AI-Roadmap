@@ -48,16 +48,45 @@
 
 """....Set Methods...."""
 
-#.....Adding and Removing Elements.....
+""".....Adding and Removing Elements....."""
 
-s = {10,20,30,40}
+# s = {10,20,30,40}
 
-s.add(50)  # Add an element
-s.update([60, 70, 80])   # Add multiple elements
-s.remove(20)   # Remove an element (error if element doesn't exist)
-s.discard(20)  # Remove safely (no error if element not present)
-s.pop()        # Remove random element
-s.clear()      # Clear entire set 
+# s.add(50)  # Add an element
+# s.update([60, 70, 80])   # Add multiple elements
+# s.remove(20)   # Remove an element (error if element doesn't exist)
+# s.discard(20)  # Remove safely (no error if element not present)
+# s.pop()        # Remove random element
+# s.clear()      # Clear entire set 
+
+
+""".....Set Operations....."""
+
+# 1) Union        -  A | B    or     A.intersection(B)
+# 2) Intersection -  A & B    or     A.intersection(B)
+# 3) Difference   -  A - B    or     A.difference(B)
+# 4) Symmetric    -  A ^ B    or     A.symmetric_difference(B)
+#    Difference
+
+
+#....Example....
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print(A | B)   # Union
+print(A & B)   # Intersection
+print(A - B)   # Difference
+print(A ^ B)   # Symmetric Difference
+
+#....Output....
+
+{1, 2, 3, 4, 5, 6}
+{3, 4}
+{1, 2}
+{1, 2, 5, 6}
+
+
 
 
 
