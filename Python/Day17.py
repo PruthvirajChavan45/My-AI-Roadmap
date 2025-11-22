@@ -45,3 +45,19 @@
 #   - unordered traversing always. 
 #   - No index values so no traversing on the basis of index.
 
+
+"""....Set Methods...."""
+
+#.....Adding and Removing Elements.....
+
+s = {10,20,30,40}
+
+s.add(50)  # Add an element
+s.update([60, 70, 80])   # Add multiple elements
+s.remove(20)   # Remove an element (error if element doesn't exist)
+s.discard(20)  # Remove safely (no error if element not present)
+s.pop()        # Remove random element
+s.clear()      # Clear entire set 
+
+
+
