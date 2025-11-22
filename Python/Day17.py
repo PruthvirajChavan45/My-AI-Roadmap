@@ -19,12 +19,23 @@
 
 """....Example...."""
 
-s = {10, 20, 30, 20, 30}
-print(s)
+# s = {10, 20, 30, 20, 30}
+# print(s)
 
 #....output.....
-{10, 20, 30}
+# {10, 20, 30}
 
 #   - Duplicates are automatically removed.
+
+
+"""....Creating a Set...."""
+
+s = {1, 2, 3}
+
+#.....Empty set : 
+
+s = set()      # correct
+s = {}         # ❌ creates dictionary, not set
+
 
 
