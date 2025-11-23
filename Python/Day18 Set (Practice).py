@@ -84,14 +84,29 @@
 
 """.....12) Check if one set is a subset of another."""
 
+# A = {1,2,3,4}
+# B = {3,4}
+
+# if A.issubset(B): 
+#     print("A is subset of B")
+
+# elif B.issubset(A): 
+#     print("B is subset of A")
+
+# else: 
+#     print("Both are different")
+
+
+""".....13) Check if one set is a superset of another."""
+
 A = {1,2,3,4}
 B = {3,4}
 
-if A.issubset(B): 
-    print("A is subset of B")
+if A.issuperset(B): 
+    print("A is superset of B")
 
-elif B.issubset(A): 
-    print("B is subset of A")
+elif B.issuperset(A): 
+    print("B is superset of A")
 
 else: 
     print("Both are different")
