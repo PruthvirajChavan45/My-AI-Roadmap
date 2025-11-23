@@ -131,7 +131,8 @@
 # print(s)
 
 
-""".....16) Given two sets, keep only the elements that are unique to both (no common element)."""
+""".....16) Given two sets, keep only the elements that are 
+unique to both (no common element)."""
 
 # a = {10, 20, 30, 40}
 # b = {40, 50, 60, 70}
@@ -149,14 +150,23 @@
 
 """.....18) Count how many vowels are present in a set of characters."""
 
-s = {10, "pruthviraj", 30, 34.45, True}
-count = 0
+# s = {10, "pruthviraj", 30, 34.45, True}
+# count = 0
 
-for item in s:
-    if isinstance(item, str):        
-        for ch in item:
-            if ch in "aeiouAEIOU":
-                count += 1
+# for item in s:
+#     if isinstance(item, str):        
+#         for ch in item:
+#             if ch in "aeiouAEIOU":
+#                 count += 1
 
-print(count)
+# print(count)
 
+
+""".....19) Write a program to print elements present 
+in Set A but not in Set B AND Set B but not in Set A (double difference)."""
+
+A = {1,2,3,4,5,6}
+B = {5,6,7,8,9,10}
+
+print("Elements only in A:", A - B)
+print("Elements only in B:", B - A)
