@@ -30,10 +30,19 @@
 
 """.....5) Check whether a given element exists in a set or not."""
 
-s = {10,20,30,40,50,60,70,80,90,100}
-search = 30
+# s = {10,20,30,40,50,60,70,80,90,100}
+# search = 30
 
-if search in s:
-    print("This element exists in the set")
-else:
-    print("This element does not exist in the set")
+# if search in s:
+#     print("This element exists in the set")
+# else:
+#     print("This element does not exist in the set")
+
+
+""".....6) Convert a list with duplicate values into a set."""
+
+s = [1,1,2,3,4,2,3,2,5]
+s = set(s)
+print(s)
+
+
