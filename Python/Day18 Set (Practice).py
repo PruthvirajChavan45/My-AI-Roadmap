@@ -165,8 +165,15 @@ unique to both (no common element)."""
 """.....19) Write a program to print elements present 
 in Set A but not in Set B AND Set B but not in Set A (double difference)."""
 
-A = {1,2,3,4,5,6}
-B = {5,6,7,8,9,10}
+# A = {1,2,3,4,5,6}
+# B = {5,6,7,8,9,10}
 
-print("Elements only in A:", A - B)
-print("Elements only in B:", B - A)
+# print("Elements only in A:", A - B)
+# print("Elements only in B:", B - A)
+
+
+""".....20) Convert a set of mixed values into a sorted list."""
+
+a = {10, "apple", 5, "cat"}
+result = sorted(a, key=str)
+print(result)
