@@ -41,8 +41,12 @@
 
 """.....6) Convert a list with duplicate values into a set."""
 
-s = [1,1,2,3,4,2,3,2,5]
-s = set(s)
-print(s)
+# s = [1,1,2,3,4,2,3,2,5]
+# s = set(s)
+# print(s)
 
 
+""".....7) Find the length of a set."""
+
+s = {10,20,30,40}
+print(len(s))
