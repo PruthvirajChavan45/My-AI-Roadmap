@@ -15,6 +15,13 @@
 
 """.....3) Remove an element from a set using remove()."""
 
+# s = {10,20,30,40,50,60,70,80,90,100}
+# s.remove(40)
+# print(s)
+
+
+""".....4) Remove an element from a set using discard()."""
+
 s = {10,20,30,40,50,60,70,80,90,100}
-s.remove(40)
+s.discard(50)
 print(s)
