@@ -68,12 +68,17 @@
 
 """.....10) Find the difference of two sets (A - B)."""
 
+# A = {1,2,3,4}
+# B = {3,4,5,6}
+
+# print(A - B)
+
+
+""".....11) Find the symmetric difference of two sets."""
+
 A = {1,2,3,4}
 B = {3,4,5,6}
 
-print(A - B)
-
-
-
+print(A ^ B)
 
 
