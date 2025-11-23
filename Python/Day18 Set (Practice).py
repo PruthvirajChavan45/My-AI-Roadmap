@@ -76,9 +76,24 @@
 
 """.....11) Find the symmetric difference of two sets."""
 
-A = {1,2,3,4}
-B = {3,4,5,6}
+# A = {1,2,3,4}
+# B = {3,4,5,6}
 
-print(A ^ B)
+# print(A ^ B)
+
+
+""".....12) Check if one set is a subset of another."""
+
+A = {1,2,3,4}
+B = {3,4}
+
+if A.issubset(B): 
+    print("A is subset of B")
+
+elif B.issubset(A): 
+    print("B is subset of A")
+
+else: 
+    print("Both are different")
 
 
