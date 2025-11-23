@@ -126,6 +126,17 @@
 
 """.....15) Remove duplicates from a list without using loops (only set)."""
 
-s = [1,1,2,2,3,4,3,2,5]
-s = set(s)
-print(s)
+# s = [1,1,2,2,3,4,3,2,5]
+# s = set(s)
+# print(s)
+
+
+""".....16) Given two sets, keep only the elements that are unique to both (no common element)."""
+
+a = {10, 20, 30, 40}
+b = {40, 50, 60, 70}
+
+result = a ^ b     
+print(result)
+
+
