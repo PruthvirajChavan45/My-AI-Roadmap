@@ -142,7 +142,21 @@
 
 """.....17) Print the maximum and minimum element of a numeric set."""
 
-a = {10, 20, 30, 40, 5, 98, 73}
-print(f"Maximum : {max(a)}")
-print(f"Minimum : {min(a)}")
+# a = {10, 20, 30, 40, 5, 98, 73}
+# print(f"Maximum : {max(a)}")
+# print(f"Minimum : {min(a)}")
+
+
+""".....18) Count how many vowels are present in a set of characters."""
+
+s = {10, "pruthviraj", 30, 34.45, True}
+count = 0
+
+for item in s:
+    if isinstance(item, str):        
+        for ch in item:
+            if ch in "aeiouAEIOU":
+                count += 1
+
+print(count)
 
