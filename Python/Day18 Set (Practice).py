@@ -115,10 +115,17 @@
 
 """.....14) Check if two sets are equal."""
 
-A = {1,2,3,4}
-B = {1,2,3,4}
+# A = {1,2,3,4}
+# B = {1,2,3,4}
 
-if A == B: 
-    print("Both are equal")
-else: 
-    print("Both are not equal")
+# if A == B: 
+#     print("Both are equal")
+# else: 
+#     print("Both are not equal")
+
+
+""".....15) Remove duplicates from a list without using loops (only set)."""
+
+s = [1,1,2,2,3,4,3,2,5]
+s = set(s)
+print(s)
