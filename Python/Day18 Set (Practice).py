@@ -99,16 +99,26 @@
 
 """.....13) Check if one set is a superset of another."""
 
+# A = {1,2,3,4}
+# B = {3,4}
+
+# if A.issuperset(B): 
+#     print("A is superset of B")
+
+# elif B.issuperset(A): 
+#     print("B is superset of A")
+
+# else: 
+#     print("Both are different")
+
+
+
+""".....14) Check if two sets are equal."""
+
 A = {1,2,3,4}
-B = {3,4}
+B = {1,2,3,4}
 
-if A.issuperset(B): 
-    print("A is superset of B")
-
-elif B.issuperset(A): 
-    print("B is superset of A")
-
+if A == B: 
+    print("Both are equal")
 else: 
-    print("Both are different")
-
-
+    print("Both are not equal")
