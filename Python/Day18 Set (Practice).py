@@ -48,5 +48,13 @@
 
 """.....7) Find the length of a set."""
 
-s = {10,20,30,40}
-print(len(s))
+# s = {10,20,30,40}
+# print(len(s))
+
+
+""".....8) Find the union of two sets."""
+
+a = {1,2,3,4}
+b = {3,4,5,6}
+print(a.union(b))
+
