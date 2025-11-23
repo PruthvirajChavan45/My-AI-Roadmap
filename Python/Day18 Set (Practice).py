@@ -22,6 +22,18 @@
 
 """.....4) Remove an element from a set using discard()."""
 
+# s = {10,20,30,40,50,60,70,80,90,100}
+# s.discard(50)
+# print(s)
+
+
+
+""".....5) Check whether a given element exists in a set or not."""
+
 s = {10,20,30,40,50,60,70,80,90,100}
-s.discard(50)
-print(s)
+search = 30
+
+if search in s:
+    print("This element exists in the set")
+else:
+    print("This element does not exist in the set")
