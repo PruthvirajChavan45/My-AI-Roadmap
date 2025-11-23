@@ -133,10 +133,16 @@
 
 """.....16) Given two sets, keep only the elements that are unique to both (no common element)."""
 
-a = {10, 20, 30, 40}
-b = {40, 50, 60, 70}
+# a = {10, 20, 30, 40}
+# b = {40, 50, 60, 70}
 
-result = a ^ b     
-print(result)
+# result = a ^ b     
+# print(result)
 
+
+""".....17) Print the maximum and minimum element of a numeric set."""
+
+a = {10, 20, 30, 40, 5, 98, 73}
+print(f"Maximum : {max(a)}")
+print(f"Minimum : {min(a)}")
 
