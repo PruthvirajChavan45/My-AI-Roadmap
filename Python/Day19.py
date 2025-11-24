@@ -33,16 +33,39 @@
 
 """....Adding / Updating Elements...."""
 
+# student = {
+#     "name": "Pruthviraj",
+#     "age": 22,
+#     "course": "Python"
+# }
+
+# student["age"] = 23       # update
+# student["city"] = "Pune"  # add
+
+# print(student)
+# {'name': 'Pruthviraj', 'age': 23, 'course': 'Python', 'city': 'Pune'}
+
+
+"""....Removing Elements (Function and Their Usage)...."""
+
+# pop(key)      - Removes & returns value
+# popitem()     - Removes last inserted key–value pair
+# del dict[key] - Deletes key
+# clear()       - Removes all items
+
+
+#.....Example :
+
 student = {
     "name": "Pruthviraj",
     "age": 22,
     "course": "Python"
 }
 
-student["age"] = 23       # update
-student["city"] = "Pune"  # add
+student.pop("age") 
+student.popitem()            
+del student["name"]
+student.clear()
 
-print(student)
-# {'name': 'Pruthviraj', 'age': 23, 'course': 'Python', 'city': 'Pune'}
 
 
