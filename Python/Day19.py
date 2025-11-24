@@ -21,3 +21,12 @@
 # 3) Duplicate keys allowed - No
 # 4) Indexing - Based on keys
 # 5) Heterogeneous values	- Allowed
+
+
+"""....Creating a Dictionary...."""
+
+d1 = {}                                      # empty
+d2 = {"a": 1, "b": 2, "c": 3}                 # with values
+d3 = dict(name="Alex", age=30)               # using dict()
+d4 = dict([("x", 10), ("y", 20)])            # from list of tuples
+
