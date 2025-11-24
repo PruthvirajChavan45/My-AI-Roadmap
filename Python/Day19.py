@@ -25,8 +25,24 @@
 
 """....Creating a Dictionary...."""
 
-d1 = {}                                      # empty
-d2 = {"a": 1, "b": 2, "c": 3}                 # with values
-d3 = dict(name="Alex", age=30)               # using dict()
-d4 = dict([("x", 10), ("y", 20)])            # from list of tuples
+# d1 = {}                                      # empty
+# d2 = {"a": 1, "b": 2, "c": 3}                 # with values
+# d3 = dict(name="Alex", age=30)               # using dict()
+# d4 = dict([("x", 10), ("y", 20)])            # from list of tuples
+
+
+"""....Adding / Updating Elements...."""
+
+student = {
+    "name": "Pruthviraj",
+    "age": 22,
+    "course": "Python"
+}
+
+student["age"] = 23       # update
+student["city"] = "Pune"  # add
+
+print(student)
+# {'name': 'Pruthviraj', 'age': 23, 'course': 'Python', 'city': 'Pune'}
+
 
