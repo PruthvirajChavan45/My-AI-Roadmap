@@ -72,21 +72,29 @@
 
 #.....Example :
 
-student = {
-    "name": "Pruthviraj",
-    "age": 22,
-    "course": "Python"
-}
+# student = {
+#     "name": "Pruthviraj",
+#     "age": 22,
+#     "course": "Python"
+# }
 
-for key in student:
-    print(key) # print keys only.
+# for key in student:
+#     print(key) # print keys only.
 
-for value in student.values():
-    print(value) # print values only.
+# for value in student.values():
+#     print(value) # print values only.
 
-for k, v in student.items():
-    print(k, v) # print keys and values.
+# for k, v in student.items():
+#     print(k, v) # print keys and values.
 
 
+"""....Dictionary Useful Methods...."""
+
+# keys()    - returns all keys
+# values()  - returns all values
+# items()   - returns key–value pairs
+# update()  - merges 2 dictionaries
+# copy()    - creates shallow copy
+# setdefault() - returns value of key, if not present inserts it
 
 
