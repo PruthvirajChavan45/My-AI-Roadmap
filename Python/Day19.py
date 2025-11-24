@@ -100,9 +100,20 @@
 
 """....Nested Dictionary...."""
 
-students = {
-    1: {"name": "Pruthviraj", "age": 21},
-    2: {"name": "Rohan", "age": 22}
-}
-print(students[1]["name"])  # Pruthviraj
+# students = {
+#     1: {"name": "Pruthviraj", "age": 21},
+#     2: {"name": "Rohan", "age": 22}
+# }
+# print(students[1]["name"])  # Pruthviraj
+
+
+"""....Convert Between Dictionary & Other Data Types...."""
+
+# Tuple of tuples → dict
+dict(((1, "A"), (2, "B")))
+
+# List of tuples → dict
+dict([(1, "A"), (2, "B")])
+
+
 
