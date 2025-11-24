@@ -56,16 +56,37 @@
 
 #.....Example :
 
+# student = {
+#     "name": "Pruthviraj",
+#     "age": 22,
+#     "course": "Python"
+# }
+
+# student.pop("age") 
+# student.popitem()            
+# del student["name"]
+# student.clear()
+
+
+"""....Looping in Dictionary...."""
+
+#.....Example :
+
 student = {
     "name": "Pruthviraj",
     "age": 22,
     "course": "Python"
 }
 
-student.pop("age") 
-student.popitem()            
-del student["name"]
-student.clear()
+for key in student:
+    print(key) # print keys only.
+
+for value in student.values():
+    print(value) # print values only.
+
+for k, v in student.items():
+    print(k, v) # print keys and values.
+
 
 
 
