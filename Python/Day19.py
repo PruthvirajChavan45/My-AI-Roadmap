@@ -110,10 +110,16 @@
 """....Convert Between Dictionary & Other Data Types...."""
 
 # Tuple of tuples → dict
-dict(((1, "A"), (2, "B")))
+# dict(((1, "A"), (2, "B")))
 
-# List of tuples → dict
-dict([(1, "A"), (2, "B")])
+# # List of tuples → dict
+# dict([(1, "A"), (2, "B")])
 
 
+"""....Copy vs Deep Copy...."""
 
+import copy
+d1 = {"a": 1, "b": [10, 20]}
+
+d2 = d1.copy()            # shallow
+d3 = copy.deepcopy(d1)    # deep
