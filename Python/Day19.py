@@ -98,3 +98,11 @@
 # setdefault() - returns value of key, if not present inserts it
 
 
+"""....Nested Dictionary...."""
+
+students = {
+    1: {"name": "Pruthviraj", "age": 21},
+    2: {"name": "Rohan", "age": 22}
+}
+print(students[1]["name"])  # Pruthviraj
+
