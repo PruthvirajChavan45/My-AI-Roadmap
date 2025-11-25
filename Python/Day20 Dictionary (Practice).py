@@ -68,19 +68,34 @@
     alphabet at least once.
 """
 
-sentence = "leetcode"
-d = {}
+# sentence = "leetcode"
+# d = {}
 
-for i in sentence: 
+# for i in sentence: 
+#     if i in d.keys(): 
+#         d[i] += 1
+#     else: 
+#         d[i] = 1
+
+# if len(d.keys()) == 26: 
+#     print("True")
+# else: 
+#     print("False")
+
+
+
+#.....5) Leetcode 2351 - first letter to appear twice.....
+"""
+    find the first character that appears twice in a string.
+"""
+
+s = "abccbaacz"
+d = {}
+for i in s: 
     if i in d.keys(): 
-        d[i] += 1
+        print(i)
+        break
     else: 
         d[i] = 1
-
-if len(d.keys()) == 26: 
-    print("True")
-else: 
-    print("False")
-
 
 
