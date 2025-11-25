@@ -89,13 +89,34 @@
     find the first character that appears twice in a string.
 """
 
-s = "abccbaacz"
+# s = "abccbaacz"
+# d = {}
+# for i in s: 
+#     if i in d.keys(): 
+#         print(i)
+#         break
+#     else: 
+#         d[i] = 1
+
+
+#.....6) Leetcode 1748 - sum of unique elements.....
+"""
+    return the sum of elements that appear exactly
+    once in the array.
+"""
+
+a = [1,2,3,2,4,5]
 d = {}
-for i in s: 
+
+for i in a: 
     if i in d.keys(): 
-        print(i)
-        break
+        d[i] += 1
     else: 
         d[i] = 1
+sum = 0
+for i in d: 
+    if d[i] == 1: 
+        sum += i
+print(sum)
 
 
