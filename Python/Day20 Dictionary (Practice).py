@@ -44,20 +44,43 @@
     based on give strings.
 """
 
-jewels = "aA"
-stones = "aAAbbbb"
+# jewels = "aA"
+# stones = "aAAbbbb"
+# d = {}
+
+# for i in stones: 
+#     if i in d.keys(): 
+#         d[i] += 1
+#     else: 
+#         d[i] = 1
+
+# count = 0
+
+# for i in d.keys(): 
+#     if i in jewels: 
+#         count += d[i]
+# print(count)
+
+
+#.....4) Leetcode 1832 - pangram check.....
+"""
+    verify if a sentence contains every letters of the english 
+    alphabet at least once.
+"""
+
+sentence = "leetcode"
 d = {}
 
-for i in stones: 
+for i in sentence: 
     if i in d.keys(): 
         d[i] += 1
     else: 
         d[i] = 1
 
-count = 0
+if len(d.keys()) == 26: 
+    print("True")
+else: 
+    print("False")
 
-for i in d.keys(): 
-    if i in jewels: 
-        count += d[i]
-print(count)
+
 
