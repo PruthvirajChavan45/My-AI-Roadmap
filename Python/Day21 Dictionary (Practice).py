@@ -108,19 +108,42 @@
 """
     determine if the count if each digit matches its value in the string.
 """  
-num = "1210"
-d = {}
+# num = "1210"
+# d = {}
 
-for i in num: 
+# for i in num: 
+#     if i in d.keys(): 
+#         d[i] += 1
+#     else: 
+#         d[i] = 1
+
+# for i in range(len(num)): 
+#     if d.get(str(i), 0) == int(num[i]): 
+#         continue
+#     else: 
+#         print("False")
+
+
+
+#.....6) Intersection of two arrays.....
+"""
+    return all the unique elements that appear in both arrays.
+""" 
+
+a = [1,2,3,4,5]
+b = [4,5,6,7,8]
+
+j = []
+d = {}
+for i in a: 
     if i in d.keys(): 
         d[i] += 1
     else: 
         d[i] = 1
 
-for i in range(len(num)): 
-    if d.get(str(i), 0) == int(num[i]): 
-        continue
-    else: 
-        print("False")
+for i in d.keys(): 
+    if i in b: 
+        j.append(i)
+print(j)
 
 
