@@ -76,27 +76,51 @@
 #         print(i) 
     
 
+
 #.....4) Leetcode 2404 - Most frequenct even element.....
 """
     find the even number with the highest frequency, return 
     the smallest one if ties exist
 """  
 
-nums = [0,1,6,6,4,4]
+# nums = [0,1,6,6,4,4]
+# d = {}
+
+# for i in nums: 
+#     if i % 2 == 0: 
+#         if i in d.keys(): 
+#             d[i] += 1
+#         else: 
+#             d[i] = 1
+
+# if not d: 
+#     print(-1)
+
+# max_f = max(d.values())
+
+# cand = [num for num, freq in d.items() if freq == max_f]
+
+# print(min(cand))
+
+
+
+#.....5) Leetcode 2283 - check if number has equal digit count and digit value.....
+"""
+    determine if the count if each digit matches its value in the string.
+"""  
+num = "1210"
 d = {}
 
-for i in nums: 
-    if i % 2 == 0: 
-        if i in d.keys(): 
-            d[i] += 1
-        else: 
-            d[i] = 1
+for i in num: 
+    if i in d.keys(): 
+        d[i] += 1
+    else: 
+        d[i] = 1
 
-if not d: 
-    print(-1)
+for i in range(len(num)): 
+    if d.get(str(i), 0) == int(num[i]): 
+        continue
+    else: 
+        print("False")
 
-max_f = max(d.values())
 
-cand = [num for num, freq in d.items() if freq == max_f]
-
-print(min(cand))
