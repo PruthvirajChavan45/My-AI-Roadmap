@@ -62,18 +62,41 @@
     in the array.
 """  
 
-a = [1,1,3,3,3,5,5,6,6,6,3,5,3,2,3,4,6,7,8,8,0]
-d = {}
+# a = [1,1,3,3,3,5,5,6,6,6,3,5,3,2,3,4,6,7,8,8,0]
+# d = {}
 
-for i in a: 
-    if i in d.keys(): 
-        d[i] += 1
-    else: 
-        d[i] = 1
+# for i in a: 
+#     if i in d.keys(): 
+#         d[i] += 1
+#     else: 
+#         d[i] = 1
 
-for i in d.keys():
-    if d[i] > 1: 
-        print(i) 
+# for i in d.keys():
+#     if d[i] > 1: 
+#         print(i) 
     
 
+#.....4) Leetcode 2404 - Most frequenct even element.....
+"""
+    find the even number with the highest frequency, return 
+    the smallest one if ties exist
+"""  
 
+nums = [0,1,6,6,4,4]
+d = {}
+
+for i in nums: 
+    if i % 2 == 0: 
+        if i in d.keys(): 
+            d[i] += 1
+        else: 
+            d[i] = 1
+
+if not d: 
+    print(-1)
+
+max_f = max(d.values())
+
+cand = [num for num, freq in d.items() if freq == max_f]
+
+print(min(cand))
