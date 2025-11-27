@@ -85,10 +85,21 @@
 
 #....Examples :- 
 
-names = ["Pruthviraj", "Ganesh", "Raj"]
-ages = [21, 22, 14]
+# names = ["Pruthviraj", "Ganesh", "Raj"]
+# ages = [21, 22, 14]
 
-comb = zip(names, ages)
-print(list(comb))       # [('Pruthviraj', 21), ('Ganesh', 22), ('Raj', 14)]
+# comb = zip(names, ages)
+# print(list(comb))       # [('Pruthviraj', 21), ('Ganesh', 22), ('Raj', 14)]
+
+
+
+""".....Comprehensions......"""
+
+""".....1) List Comprehensions......"""
+
+a = [1,2,3,4,5,6,7,8]
+l = [i for i in a if i % 2 == 0]
+print(l)    # [2, 4, 6, 8]
+
 
 
