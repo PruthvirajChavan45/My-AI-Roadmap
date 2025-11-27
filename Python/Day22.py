@@ -127,13 +127,20 @@
 #       - Efficient for lazy evaluation (compute values only when needed)
 
 #....Examples :- 
-def my_generator():
-    for i in range(5):
-        yield i
+# def my_generator():
+#     for i in range(5):
+#         yield i
 
-gen = my_generator()
-print(next(gen))    # 0
-print(next(gen))    # 1
-print(list(gen))    # [2,3,4]
+# gen = my_generator()
+# print(next(gen))    # 0
+# print(next(gen))    # 1
+# print(list(gen))    # [2,3,4]
 
 
+""".....Generator Expression......"""
+
+sequence = (x**2 for x in range(5))
+
+print(next(sequence))   # 0
+print(next(sequence))   # 1
+print(next(sequence))   # 4
