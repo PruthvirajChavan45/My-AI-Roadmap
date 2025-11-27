@@ -95,11 +95,17 @@
 
 """.....Comprehensions......"""
 
-""".....1) List Comprehensions......"""
+""".....1) List Comprehension......"""
+
+# a = [1,2,3,4,5,6,7,8]
+# l = [i for i in a if i % 2 == 0]
+# print(l)    # [2, 4, 6, 8]
+
+
+
+""".....2) set Comprehension......"""
 
 a = [1,2,3,4,5,6,7,8]
-l = [i for i in a if i % 2 == 0]
-print(l)    # [2, 4, 6, 8]
-
-
+l = {i for i in a if i % 2 == 0}
+print(l)    # {8, 2, 4, 6} unordered nature 
 
