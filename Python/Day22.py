@@ -67,11 +67,28 @@
 # print(list(l))      # [2, 4, 6]
 
 
-# 2) Example: 
-a = [1,2,3,4,5,6,7,8]
+# # 2) Example: 
+# a = [1,2,3,4,5,6,7,8]
 
-def even(x): 
-    return x % 2 == 0
+# def even(x): 
+#     return x % 2 == 0
 
-l = filter(even, a)
-print(list(l))      # [2, 4, 6, 8]
+# l = filter(even, a)
+# print(list(l))      # [2, 4, 6, 8]
+
+
+
+""".....3) zip......"""
+#   - Combine multiple iterables into pairs of elements.
+
+#....Syntax :- zip(iterable 1,iterable2, ....)
+
+#....Examples :- 
+
+names = ["Pruthviraj", "Ganesh", "Raj"]
+ages = [21, 22, 14]
+
+comb = zip(names, ages)
+print(list(comb))       # [('Pruthviraj', 21), ('Ganesh', 22), ('Raj', 14)]
+
+
