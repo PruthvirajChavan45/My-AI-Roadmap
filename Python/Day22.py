@@ -139,8 +139,33 @@
 
 """.....Generator Expression......"""
 
-sequence = (x**2 for x in range(5))
+# sequence = (x**2 for x in range(5))
 
-print(next(sequence))   # 0
-print(next(sequence))   # 1
-print(next(sequence))   # 4
+# print(next(sequence))   # 0
+# print(next(sequence))   # 1
+# print(next(sequence))   # 4
+
+
+""".....Decorators......"""
+
+#....Examples :- 
+
+# 1) Example : 
+def my_decorator(func):
+    def wrapper():
+        print("hello I will print before")
+        func()
+        print("hello I will print after")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("hello")
+
+say_hello()
+
+#....output....
+# hello I will print before
+# hello
+# hello I will print after
+
