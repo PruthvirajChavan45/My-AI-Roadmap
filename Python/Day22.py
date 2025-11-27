@@ -44,12 +44,34 @@
 
 
 # 2) Example : 
+# a = [1,2,3,4,5,6,7,8]
+
+# def square(x): 
+#     return x ** 2
+
+# l = map(square, a)
+# print(list(l))      # [1, 4, 9, 16, 25, 36, 49, 64]
+
+
+
+""".....2) Filter......"""
+#   - items from an iterable boased on a condition
+
+#....Syntax :- filter(function , iterable)
+
+#....Examples :- 
+
+# 1) Example: 
+# a = [1,2,3,4,5,6]
+# l = filter(lambda x: x % 2 == 0,a)
+# print(list(l))      # [2, 4, 6]
+
+
+# 2) Example: 
 a = [1,2,3,4,5,6,7,8]
 
-def square(x): 
-    return x ** 2
+def even(x): 
+    return x % 2 == 0
 
-l = map(square, a)
-print(list(l))      # [1, 4, 9, 16, 25, 36, 49, 64]
-
-
+l = filter(even, a)
+print(list(l))      # [2, 4, 6, 8]
