@@ -151,21 +151,41 @@
 #....Examples :- 
 
 # 1) Example : 
-def my_decorator(func):
-    def wrapper():
-        print("hello I will print before")
-        func()
-        print("hello I will print after")
-    return wrapper
+# def my_decorator(func):
+#     def wrapper():
+#         print("hello I will print before")
+#         func()
+#         print("hello I will print after")
+#     return wrapper
 
-@my_decorator
-def say_hello():
-    print("hello")
+# @my_decorator
+# def say_hello():
+#     print("hello")
 
-say_hello()
+# say_hello()
 
 #....output....
 # hello I will print before
 # hello
 # hello I will print after
+
+
+# 2) Example :
+
+def decorate(func):
+    def wrapper(a,b):
+        print("Your 2 numbers addition is : ")
+        func(a,b)
+        print("thankyou for using us")
+    return wrapper
+
+@decorate
+def addition(a,b):
+    print(a+b)
+
+addition(12,12)
+
+#....output....
+# 24
+# thankyour for using us
 
