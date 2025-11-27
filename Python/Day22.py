@@ -111,7 +111,29 @@
 
 """.....3) Dictionary Comprehension......"""
 
-a = [1,2,3,4,5,6]
-l = {i:i**2 for i in a if i % 2 == 0}
-print(l)    # {2: 4, 4: 16, 6: 36}
+# a = [1,2,3,4,5,6]
+# l = {i:i**2 for i in a if i % 2 == 0}
+# print(l)    # {2: 4, 4: 16, 6: 36}
+
+
+
+
+""".....Generator......"""
+#   - Generators are a special type of iterator that 
+#      generate items one by one instead of storing the entire sequence in memory.
+
+#   - Why use them:
+#       - Saves memory for large datasets
+#       - Efficient for lazy evaluation (compute values only when needed)
+
+#....Examples :- 
+def my_generator():
+    for i in range(5):
+        yield i
+
+gen = my_generator()
+print(next(gen))    # 0
+print(next(gen))    # 1
+print(list(gen))    # [2,3,4]
+
 
