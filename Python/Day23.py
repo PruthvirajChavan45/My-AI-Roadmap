@@ -45,15 +45,24 @@
 
 #.....Example of raise :
 
-try:
-    age = int(input("Enter age: "))
-    if age < 18:
-        raise Exception("You must be 18+")
-    print("Access granted")
-except Exception as e:
-    print("Error:", e)
+# try:
+#     age = int(input("Enter age: "))
+#     if age < 18:
+#         raise Exception("You must be 18+")
+#     print("Access granted")
+# except Exception as e:
+#     print("Error:", e)
 
 #...Output...
 # Enter age: 13
 # Error: You must be 18+
+
+
+
+""".....File Handling......"""
+
+#   - File handling in python, as the name suggests  
+#     it deals with files with python.
+#   - that means creating, reading, updating, and deleting (CRUD)
+#     operations in different files.
 
