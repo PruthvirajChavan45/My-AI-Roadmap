@@ -83,13 +83,21 @@
 
 #......Example.....
 
-open("pull.txt",'x')  # creating a file
+# open("pull.txt",'x')  # creating a file
 
-file = open("push.txt",'w')  # creating a file and writing the content
-file.write("hello this is a sample file that I have created") # content
+# file = open("push.txt",'w')  # creating a file and writing the content
+# file.write("hello this is a sample file that I have created") # content
 
-file = open("push.txt",'a')  # appeding the content
-file.write("Appended Content")
+# file = open("push.txt",'a')  # appeding the content
+# file.write("Appended Content")
 
-file.close() #close the file
+# file.close() #close the file
+
+
+"""..... with open() Functionalitie ......"""
+#   - This With functionality will open the file and 
+#        automatically closes the file once you are done. 
+
+with open("Python/Day19.py",'r') as fs:
+     print(fs.read())
 
