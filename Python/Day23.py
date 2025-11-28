@@ -94,7 +94,7 @@
 # file.close() #close the file
 
 
-"""..... with open() Functionalitie ......"""
+"""..... with open() Functionality ......"""
 #   - This With functionality will open the file and 
 #        automatically closes the file once you are done. 
 
