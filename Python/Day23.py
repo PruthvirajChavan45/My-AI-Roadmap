@@ -66,3 +66,17 @@
 #   - that means creating, reading, updating, and deleting (CRUD)
 #     operations in different files.
 
+
+""".....File Handling Functionalities......"""
+
+#  open() -  to open a file we need to write open() it accepts two 
+#            parameters, 1st location of the file , 2nd mode of the
+#            file("r", "a", "w", "x")
+
+#....Modes :
+
+# "r" - for reading the file . error if file does not exist.
+# "a" - for appending in file. creates a file as well. 
+# "w" - overwriting the file. Creates if it does not exist. 
+# "x" - creates a file . error if file already exist. 
+
