@@ -9,6 +9,14 @@
 #      you can handle them.
 
 
+""".....Exception Handling Functionalities......"""
 
+# Try    : this will catch the exception if any and pass to 
+# Except : Except will deal with exception you can have custom 
+#          exceptions or universal catcher.
+# Else   : Else will be executed if no exception occurs or it 
+#           want be executed.
+# Finally : This will definitely run no matter what happens.  
+# Raise   : Raise a custom error as you need.
 
 
