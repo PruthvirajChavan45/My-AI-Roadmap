@@ -103,29 +103,81 @@
 
 """.....Example....."""
 
-class Animal:
-    gender = "Male" # class attribute
+# class Animal:
+#     gender = "Male" # class attribute
 
-    def __init__(self,name,age):
-        self.name = name #instance attribute
-        self.age = age  #instance attribute
+#     def __init__(self,name,age):
+#         self.name = name #instance attribute
+#         self.age = age  #instance attribute
 
-    def info(self):  #instance method
-        print("this is a method")
+#     def info(self):  #instance method
+#         print("this is a method")
     
-    @classmethod
-    def clmethod(cls): #class method
-        print(f"{cls.gender} is your gender")
+#     @classmethod
+#     def clmethod(cls): #class method
+#         print(f"{cls.gender} is your gender")
     
-    @staticmethod
-    def hello():  #static method
-        print("hello I am a static method")
+#     @staticmethod
+#     def hello():  #static method
+#         print("hello I am a static method")
 
 
-obj = Animal("Lion",12)
-obj.info()
-obj.clmethod()
-obj.hello()
+# obj = Animal("Lion",12)
+# obj.info()
+# obj.clmethod()
+# obj.hello()
+
+
+
+
+#make a student regestration system ask for name, age, number, blood group register 3 students 
+
+# class Regestration:
+#     def __init__(self,name,age,number,blood):
+#         self.age = age
+#         self.name = name 
+#         self.number = number 
+#         self.blood = blood 
+    
+#     def info(self):
+#         print(f"hello your name is {self.name}\nyour age is {self.age}\n your number is {self.number}\nyour blood group is {self.blood}")
+
+# student1 = Regestration("Akarsh",24,9907666412,"B+")
+# student2 = Regestration("Ankur",22,9907666411,"A+")
+# student3 = Regestration("Harsh",23,9907666414,"O-")
+
+# student2.info()
+# student3.info()
+
+
+""" ....Task....
+
+make a student registration system ask for 
+name, age, number, blood group register 3 students 
+
+"""
+
+class Registration: 
+    def __init__(self, name, age, number, blood_group):
+        self.name = name
+        self.age = age
+        self.number = number
+        self.blood_group = blood_group
+
+    def student_info(self):
+
+        print("\n....Student Information....") 
+        print(f"Your name is {self.name}\nYour age is {self.age}\nYour number is {self.number}\nYour Blood group is {self.blood_group}")
+
+
+s1 = Registration("Pruthviraj", 21, 9021906000, "B+")
+s2 = Registration("Raj", 21, 9322831600, "O+")
+s3 = Registration("Anil", 41, 8758456345, "AB-")
+
+
+s1.student_info() 
+s2.student_info()
+s3.student_info()
 
 
 
