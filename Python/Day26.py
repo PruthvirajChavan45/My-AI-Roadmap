@@ -128,28 +128,6 @@
 # obj.hello()
 
 
-
-
-#make a student regestration system ask for name, age, number, blood group register 3 students 
-
-# class Regestration:
-#     def __init__(self,name,age,number,blood):
-#         self.age = age
-#         self.name = name 
-#         self.number = number 
-#         self.blood = blood 
-    
-#     def info(self):
-#         print(f"hello your name is {self.name}\nyour age is {self.age}\n your number is {self.number}\nyour blood group is {self.blood}")
-
-# student1 = Regestration("Akarsh",24,9907666412,"B+")
-# student2 = Regestration("Ankur",22,9907666411,"A+")
-# student3 = Regestration("Harsh",23,9907666414,"O-")
-
-# student2.info()
-# student3.info()
-
-
 """ ....Task....
 
 make a student registration system ask for 
