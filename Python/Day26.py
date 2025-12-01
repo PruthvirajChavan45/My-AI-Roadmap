@@ -57,11 +57,28 @@
 #   - A Method created using the self key word as a first parameter.
 
 #....example :                                                     
-class Student:
-    def show(self):
-        print(self.name)
+# class Student:
+#     def show(self):
+#         print(self.name)
 
-s1 = Student()
-s1.show()
+# s1 = Student()
+# s1.show()
+
+
+"""......2) Class Method......"""
+#   - A method that works on class attributes.
+
+#...must have - 
+#    @classmethod :- decorator
+#   cls :- as first argument
+
+#....example :                                                     
+
+class Student : 
+    @classmethod
+    def change_school(cls, new): 
+        cls.school = new
+
+Student.change_school("ABC")    # ABC
 
 
