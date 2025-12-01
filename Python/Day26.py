@@ -44,14 +44,24 @@
 
 """......Difference Between instance attribute and class attribute......"""
 
+# class Student:
+#     school = "DPS"                # class attribute
+
+#     def __init__(self, name):
+#         self.name = name          # instance attribute
+
+
+"""......Methods......"""
+
+"""......1) Instance Method......"""
+#   - A Method created using the self key word as a first parameter.
+
+#....example :                                                     
 class Student:
-    school = "DPS"                # class attribute
+    def show(self):
+        print(self.name)
 
-    def __init__(self, name):
-        self.name = name          # instance attribute
-
-
-
-
+s1 = Student()
+s1.show()
 
 
