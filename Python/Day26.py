@@ -74,11 +74,29 @@
 
 #....example :                                                     
 
+# class Student : 
+#     @classmethod
+#     def change_school(cls, new): 
+#         cls.school = new
+
+# Student.change_school("ABC")    # ABC
+
+
+"""......3) Static Method......"""
+#   - A method that does not use object data and does not use class data.
+
+#   Used for utility/helper functions.
+
+#...must have - 
+#    @staticmethod :- decorator
+#    (no self, no cls)
+
+#....example :
+  
 class Student : 
-    @classmethod
-    def change_school(cls, new): 
-        cls.school = new
+    @staticmethod
+    def info():
+        print("This is a student class.")
 
-Student.change_school("ABC")    # ABC
-
+Student.info()
 
