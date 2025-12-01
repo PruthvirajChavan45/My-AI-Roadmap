@@ -93,10 +93,39 @@
 
 #....example :
   
-class Student : 
-    @staticmethod
-    def info():
-        print("This is a student class.")
+# class Student : 
+#     @staticmethod
+#     def info():
+#         print("This is a student class.")
 
-Student.info()
+# Student.info()
+
+
+""".....Example....."""
+
+class Animal:
+    gender = "Male" # class attribute
+
+    def __init__(self,name,age):
+        self.name = name #instance attribute
+        self.age = age  #instance attribute
+
+    def info(self):  #instance method
+        print("this is a method")
+    
+    @classmethod
+    def clmethod(cls): #class method
+        print(f"{cls.gender} is your gender")
+    
+    @staticmethod
+    def hello():  #static method
+        print("hello I am a static method")
+
+
+obj = Animal("Lion",12)
+obj.info()
+obj.clmethod()
+obj.hello()
+
+
 
