@@ -11,12 +11,12 @@
 
 #.......Constructor Example (Simple) :
 
-class Student:
-    def __init__(self, name, age):
-        self.name = name      # instance variable
-        self.age = age        # instance variable
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name      # instance variable
+#         self.age = age        # instance variable
 
-s1 = Student("Raj", 20)
+# s1 = Student("Raj", 20)
 
 #....What happens:
 
@@ -25,4 +25,20 @@ s1 = Student("Raj", 20)
 # self becomes s1
 # s1.name = "Raj"
 # s1.age = 20
+
+
+"""......Attributes and Methods......"""
+
+"""......1) Instance attribute......"""
+#   - a attribute created using the self keyword. 
+#     (like - self.name, self.age etc)
+
+
+
+
+
+
+
+
+
 
