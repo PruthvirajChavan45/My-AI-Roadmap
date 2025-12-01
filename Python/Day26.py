@@ -18,3 +18,11 @@ class Student:
 
 s1 = Student("Raj", 20)
 
+#....What happens:
+
+# Object s1 is created
+# Constructor runs
+# self becomes s1
+# s1.name = "Raj"
+# s1.age = 20
+
