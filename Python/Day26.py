@@ -38,9 +38,17 @@
 #   - Attribute created inside a class without using the self keyword.
 
 #....example : 
-class Student: 
-    school = "DPS"   # class Attribute
+# class Student: 
+#     school = "DPS"   # class Attribute
 
+
+"""......Difference Between instance attribute and class attribute......"""
+
+class Student:
+    school = "DPS"                # class attribute
+
+    def __init__(self, name):
+        self.name = name          # instance attribute
 
 
 
