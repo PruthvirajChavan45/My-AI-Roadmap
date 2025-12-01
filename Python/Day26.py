@@ -7,3 +7,14 @@
 #   - Used to initialize object data.
 #   - self refers to the current object.
 #   - self.var creates instance variables.
+
+
+#.......Constructor Example (Simple) :
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name      # instance variable
+        self.age = age        # instance variable
+
+s1 = Student("Raj", 20)
+
