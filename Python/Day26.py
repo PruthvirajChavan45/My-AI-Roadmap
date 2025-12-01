@@ -30,11 +30,16 @@
 """......Attributes and Methods......"""
 
 """......1) Instance attribute......"""
-#   - a attribute created using the self keyword. 
+#   - A attribute created using the self keyword. 
 #     (like - self.name, self.age etc)
 
 
+"""......2) Class attribute......"""
+#   - Attribute created inside a class without using the self keyword.
 
+#....example : 
+class Student: 
+    school = "DPS"   # class Attribute
 
 
 
