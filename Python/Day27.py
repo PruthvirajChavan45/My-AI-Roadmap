@@ -11,13 +11,37 @@
 # One parent → One child
 
 # Example....
-class Animal:
-    def sound(self):
-        print("Animal makes sound")
+# class Animal:
+#     def sound(self):
+#         print("Animal makes sound")
 
-class Dog(Animal):   # child inherits Animal
-    pass
+# class Dog(Animal):   # child inherits Animal
+#     pass
 
-d = Dog()
-d.sound()
+# d = Dog()
+# d.sound()
+
+
+"""......2) Multilevel Inheritance......"""
+#   - When a class inherits from a child class, forming a chain.
+
+# Parent → Child → Grandchild
+
+# Example....
+class A:
+    def showA(self):
+        print("A")
+
+class B(A):
+    def showB(self):
+        print("B")
+
+class C(B):
+    def showC(self):
+        print("C")
+
+c = C()
+c.showA()
+c.showB()
+c.showC()
 
