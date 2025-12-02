@@ -76,22 +76,52 @@
 
 # Example....
 
-class Vehicle:
-    def start(self):
-        print("Engine started")
+# class Vehicle:
+#     def start(self):
+#         print("Engine started")
 
-class Car(Vehicle):
-    pass
+# class Car(Vehicle):
+#     pass
 
-class Bike(Vehicle):
-    pass
+# class Bike(Vehicle):
+#     pass
 
-c = Car()
-b = Bike()
+# c = Car()
+# b = Bike()
 
-c.start()
-b.start()
+# c.start()
+# b.start()
 
+
+"""......5) Hybrid Inheritance......"""
+#   - A combination of two or more types of inheritance (like hierarchical + multiple).
+
+# Mixed form of inheritance
+# (Example: one parent → two children → one child inherits from both children)
+
+# Example....
+
+class A:
+    def showA(self):
+        print("A")
+
+class B(A):
+    def showB(self):
+        print("B")
+
+class C(A):
+    def showC(self):
+        print("C")
+
+class D(B, C):
+    def showD(self):
+        print("D")
+
+d = D()
+d.showA()
+d.showB()
+d.showC()
+d.showD()
 
 
 
