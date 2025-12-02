@@ -28,20 +28,46 @@
 # Parent → Child → Grandchild
 
 # Example....
-class A:
-    def showA(self):
-        print("A")
+# class A:
+#     def showA(self):
+#         print("A")
 
-class B(A):
-    def showB(self):
-        print("B")
+# class B(A):
+#     def showB(self):
+#         print("B")
 
-class C(B):
-    def showC(self):
-        print("C")
+# class C(B):
+#     def showC(self):
+#         print("C")
 
-c = C()
-c.showA()
-c.showB()
-c.showC()
+# c = C()
+# c.showA()
+# c.showB()
+# c.showC()
+
+
+"""......3) Multiple Inheritance......"""
+#   - When one child class inherits from multiple parent classes.
+
+# One child ← Parent1 + Parent2
+
+# Example....
+
+class Father:
+    def f(self):
+        print("Father")
+
+class Mother:
+    def m(self):
+        print("Mother")
+
+class Child(Father, Mother):
+    pass
+
+c = Child()
+c.f()
+c.m()
+
+
+
 
