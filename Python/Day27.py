@@ -53,20 +53,45 @@
 
 # Example....
 
-class Father:
-    def f(self):
-        print("Father")
+# class Father:
+#     def f(self):
+#         print("Father")
 
-class Mother:
-    def m(self):
-        print("Mother")
+# class Mother:
+#     def m(self):
+#         print("Mother")
 
-class Child(Father, Mother):
+# class Child(Father, Mother):
+#     pass
+
+# c = Child()
+# c.f()
+# c.m()
+
+
+"""......4) Hierarchical Inheritance......"""
+#   - When one parent class has multiple child classes.
+
+# One parent → Many children
+
+# Example....
+
+class Vehicle:
+    def start(self):
+        print("Engine started")
+
+class Car(Vehicle):
     pass
 
-c = Child()
-c.f()
-c.m()
+class Bike(Vehicle):
+    pass
+
+c = Car()
+b = Bike()
+
+c.start()
+b.start()
+
 
 
 
