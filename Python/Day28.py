@@ -39,3 +39,29 @@
 #   public variable : 
 #       self.__balance = 10000
 
+
+"""......Example......"""
+
+class Demo:
+    def __init__(self):
+        self.name = "Public Variable"          # Public
+        self._salary = 50000                   # Protected
+        self.__balance = 100000                # Private
+
+
+obj = Demo()
+
+# PUBLIC ACCESS
+print("\nPublic Access:")
+print(obj.name)               # Allowed
+
+# PROTECTED ACCESS (Convention: don't use outside, but allowed)
+print("\nProtected Access:")
+print(obj._salary)            # Allowed but not recommended
+
+# PRIVATE ACCESS (Not allowed directly)
+print("\nPrivate Access:")
+print(obj.__balance)        # Error: Attribute not found
+
+
+
