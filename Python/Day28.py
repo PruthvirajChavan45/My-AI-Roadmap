@@ -11,3 +11,9 @@
 #   2) Protected
 #   3) Private
 
+"""......1) Public......"""
+#   - Accessible from anywhere 
+#   - Example : self.name
+
+#   public variable : 
+#       self.name = "Pruthviraj"
