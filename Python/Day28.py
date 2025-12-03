@@ -29,3 +29,13 @@
 #   public variable : 
 #       self._salary = 50000
 
+
+"""......3) Private......"""
+#   - Use two underscores __variable
+#   - Completely hidden from outside
+#   - Cannot be accessed directly.
+#   - Example: self.__balance
+
+#   public variable : 
+#       self.__balance = 10000
+
