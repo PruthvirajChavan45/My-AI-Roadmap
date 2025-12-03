@@ -17,3 +17,15 @@
 
 #   public variable : 
 #       self.name = "Pruthviraj"
+
+
+"""......2) Protected......"""
+#  - Protected in python : 
+#      - Written with one underscore: _variable
+#      - Only a naming convention
+#      - Not truly protected (can still be accessed)
+#      - Tells developer: " internal use only "
+
+#   public variable : 
+#       self._salary = 50000
+
