@@ -4,3 +4,10 @@
 
 # In simple words:
 #   - Hide the data and protect it.
+
+
+"""......Access Modifiers......"""
+#   1) Public
+#   2) Protected
+#   3) Private
+
