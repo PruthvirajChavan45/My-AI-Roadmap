@@ -14,3 +14,16 @@
 #   - same method name, different number of parameters with same class. 
 #   - this happens in languages like java / c++ 
 #   - Python does ot support this style
+
+
+#....Example (This does NOT work in Python):.
+
+class Demo:
+    def show(self, a):
+        print(a)
+
+    def show(self, a, b):  # This replaces the first one
+        print(a + b)
+
+#   - Python will keep only the last show() method.
+#   - So this is NOT real overloading.
