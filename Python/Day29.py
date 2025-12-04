@@ -16,14 +16,20 @@
 #   - Python does ot support this style
 
 
-#....Example (This does NOT work in Python):.
+#....Example (This does NOT work in Python):
 
-class Demo:
-    def show(self, a):
-        print(a)
+# class Demo:
+#     def show(self, a):
+#         print(a)
 
-    def show(self, a, b):  # This replaces the first one
-        print(a + b)
+#     def show(self, a, b):  # This replaces the first one
+#         print(a + b)
 
 #   - Python will keep only the last show() method.
 #   - So this is NOT real overloading.
+
+
+"""......2) Method Overriding......"""
+#   - Occurs when a subclass defines a method with the same name 
+#     as its superclass, replacing the superclass's method.
+#   - child class replaces (Overrides) a method from the parent class.
