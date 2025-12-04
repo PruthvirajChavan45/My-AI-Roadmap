@@ -3,3 +3,7 @@
 #   - Polymorphism allows different classes to define methods with the 
 #     same name but different behaviors.
 #   - In Python, it is typically achieved through method overriding.
+
+"""......Types of Polymorphism......"""
+#   1) Method Overloading
+#   2) Method Overriding 
