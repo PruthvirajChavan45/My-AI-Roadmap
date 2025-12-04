@@ -33,3 +33,18 @@
 #   - Occurs when a subclass defines a method with the same name 
 #     as its superclass, replacing the superclass's method.
 #   - child class replaces (Overrides) a method from the parent class.
+
+#....Example (This does NOT work in Python):
+
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+
+class Dog(Animal):
+    def sound(self):  # overriding
+        print("Dog barks")
+
+obj = Dog()
+obj.sound()   # Dog barks
+
+#   - Child method runs instead of parent method → This is overriding.
