@@ -13,4 +13,12 @@
 #   - @abstractmethod → Method that must be implemented in child class
 
 # These are imported from:
-from abc import ABC, abstractmethod
+# from abc import ABC, abstractmethod
+
+
+""".....What is an Abstract Class?......"""
+# A class that:
+#   - Cannot be instantiated (cannot create object directly)
+#   - Contains abstract methods
+#   - Must be inherited by another class
+# Think of it as a template.
