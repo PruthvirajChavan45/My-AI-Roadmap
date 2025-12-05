@@ -22,3 +22,14 @@
 #   - Contains abstract methods
 #   - Must be inherited by another class
 # Think of it as a template.
+
+
+""".....What is an Abstract Method?......"""
+#   - A method declared in the parent class but does not have implementation.
+#   - Child class must override it.
+
+#..Syntax :
+#   @abstractmethod
+#   def method_name(self):
+#       pass
+
