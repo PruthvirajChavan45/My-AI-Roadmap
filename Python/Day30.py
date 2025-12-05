@@ -6,3 +6,11 @@
 #   - You drive a car → you use steering, brake, accelerator
 #   - You don't see engine internals
 # This is abstraction.
+
+
+""".....Abstraction in Python using ABC (Abstract Base Class)......"""
+#   - ABC → Abstract Base Class
+#   - @abstractmethod → Method that must be implemented in child class
+
+# These are imported from:
+from abc import ABC, abstractmethod
