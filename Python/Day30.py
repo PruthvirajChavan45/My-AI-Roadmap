@@ -33,3 +33,26 @@
 #   def method_name(self):
 #       pass
 
+
+""".....Example of Abstraction......"""
+
+from abc import ABC, abstractmethod
+
+# Abstract Class
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+# Child Class (Implementation)
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow")
+
+obj = Dog()
+obj.sound()
+
