@@ -8,3 +8,16 @@
 
 # Why “magic”?
 #   - Because Python automatically calls them behind the scenes.
+
+
+""".....Types of Dunder Methods......"""
+
+"""..... 1) Object Creation :— __init__ ......"""
+
+# Used when object is created.
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+# Called automatically when you do:
+p = Person("John")
