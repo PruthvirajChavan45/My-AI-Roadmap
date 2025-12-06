@@ -15,9 +15,27 @@
 """..... 1) Object Creation :— __init__ ......"""
 
 # Used when object is created.
-class Person:
-    def __init__(self, name):
-        self.name = name
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
 
 # Called automatically when you do:
-p = Person("John")
+# p = Person("John")
+
+
+"""..... 2) String Representation :— __str__ ......"""
+
+class Student: 
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    # Controls how the object prints.
+    def __str__(self): 
+        return f"Your name is {self.name} and your marks are {self.marks}"
+    
+obj = Student("Pruthviraj", 98)
+# When you do:
+print(obj)
+
+#   - Python calls __str__()
