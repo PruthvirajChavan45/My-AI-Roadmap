@@ -45,20 +45,32 @@
 
 # Example: == operator → __eq__
 
-class Equalto: 
-    def __init__(self, number):
-        self.number = number
+# class Equalto: 
+#     def __init__(self, number):
+#         self.number = number
 
-    def __eq__(self, custom):
-        return self.number == custom.number
+#     def __eq__(self, custom):
+#         return self.number == custom.number
 
-obj1 = Equalto(10)
-obj2 = Equalto(10)
+# obj1 = Equalto(10)
+# obj2 = Equalto(10)
 
-print(obj1 == obj2)  # Ture
+# print(obj1 == obj2)  # Ture
 
 #.....Python converts:
 # obj1 == obj2
 
 #.....into:
 # obj1.__eq__(obj2)
+
+
+"""..... Comparison Operators ......"""
+
+#  Operator | Dunder Method 
+#  -------- - ------------- 
+#   <       -     __lt__      
+#   >       -     __gt__      
+#   <=      -     __le__      
+#   >=      -     __ge__     
+#   ==      -     __eq__      
+#   !=      -     __ne__    
