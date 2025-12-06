@@ -85,3 +85,12 @@
 #       *       __mul__     
 #       /       __truediv__ 
 
+
+# print all dunder methods of int
+for m in dir(int):
+    if m.startswith("__") and m.endswith("__"):
+        print(m)
+
+# dir() shows all methods of a datatype
+# Example: dir(int), dir(str), dir(list) prints all available methods
+
