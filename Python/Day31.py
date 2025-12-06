@@ -74,3 +74,14 @@
 #   >=      -     __ge__     
 #   ==      -     __eq__      
 #   !=      -     __ne__    
+
+
+"""..... Mathematical Operators ......"""
+
+#    Operator | Dunder Method 
+#   --------- - ------------- 
+#       +       __add__     
+#       -       __sub__     
+#       *       __mul__     
+#       /       __truediv__ 
+
