@@ -52,3 +52,28 @@ Usage Example:
 # models.py → Module
 # utils.py → Module
 # database.py → Module
+
+
+
+#....Example:
+from mypackage import math_tools, string_tools
+
+print(math_tools.add(3, 7))     # output : 10
+print(math_tools.sub(10, 4))    # output : 6
+
+print(string_tools.upper("hello"))  # output : HELLO
+print(string_tools.lower("HELLO"))  # output : hello
+
+
+# ----- Importing Modules From a Package (Example) -----
+
+# Case-1: Import multiple modules from the same package
+# from mypackage import math_tools, string_tools
+
+# Now we can use functions of both modules:
+# math_tools.add(3, 7)
+# math_tools.sub(10, 4)
+
+# string_tools.upper("hello")
+# string_tools.lower("HELLO")
+
