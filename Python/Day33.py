@@ -27,6 +27,28 @@ Usage Example:
     import calculator
 """
 
-import calculator      # importing the calculator module
-print(calculator.add(5, 10))   # calling add() function from the module
+# import calculator      # importing the calculator module
+# print(calculator.add(5, 10))   # calling add() function from the module
 
+
+"""..... Package ......"""
+#      - A package is a folder that contains 
+#        multiple Python modules + a special file __init__.py.
+
+# ...Why __init__.py?
+#   It tells Python:
+#       - "This folder is a package. You can import modules from here."
+
+#.....Package Structure Example :
+#    my_package/
+#        __init__.py
+#        models.py
+#        utils.py
+#        database.py
+
+
+# ....Here:
+# my_package → Package (folder)
+# models.py → Module
+# utils.py → Module
+# database.py → Module
