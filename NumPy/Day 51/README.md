@@ -72,5 +72,4 @@ np.array([1, 2, 3], dtype=float)
 - NumPy makes data processing faster and more efficient  
 
 ---
-```
 
