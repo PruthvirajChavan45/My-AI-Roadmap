@@ -65,5 +65,3 @@ Aggregate functions help in:
 - preprocessing before ML  
 
 ---
-```
-
