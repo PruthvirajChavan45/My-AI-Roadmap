@@ -50,4 +50,3 @@ s2 = Student()
 # Student() → creates an object
 # s1, s2 → different objects
 
-
