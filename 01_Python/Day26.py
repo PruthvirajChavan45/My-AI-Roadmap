@@ -157,5 +157,3 @@ s1.student_info()
 s2.student_info()
 s3.student_info()
 
-
-
