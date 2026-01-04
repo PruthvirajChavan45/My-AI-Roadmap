@@ -4,7 +4,6 @@ Today I completed my **File & Folder Handling CLI Project** using Python.
 This is a full command-line utility that allows users to safely create, read, update, and delete files and folders inside the project directory.
 
 ---
-
 ## 🔗 Project Repository Link
 
 Here is the complete project:
