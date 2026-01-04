@@ -55,4 +55,3 @@ class Cat(Animal):
 
 obj = Dog()
 obj.sound()
-
