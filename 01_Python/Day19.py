@@ -122,3 +122,4 @@ d1 = {"a": 1, "b": [10, 20]}
 
 d2 = d1.copy()            # shallow
 d3 = copy.deepcopy(d1)    # deep
+
