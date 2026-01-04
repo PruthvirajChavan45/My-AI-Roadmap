@@ -55,4 +55,3 @@ def welcome(name="Guest"):
 welcome()             # uses default → Guest
 welcome("Pruthviraj") # overrides default → Pruthviraj
 
-
