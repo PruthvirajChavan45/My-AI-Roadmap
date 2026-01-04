@@ -141,7 +141,6 @@
 #         print(i) 
     
 
-
 """.....15) Find the element with the highest frequency in a tuple."""
 
 t = (1,1,2,3,4,4,5,3,2,3,3,3,2)
