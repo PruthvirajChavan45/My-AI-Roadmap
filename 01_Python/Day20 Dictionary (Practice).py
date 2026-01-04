@@ -118,5 +118,3 @@ for i in d:
     if d[i] == 1: 
         sum += i
 print(sum)
-
-
