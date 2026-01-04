@@ -93,4 +93,3 @@ for m in dir(int):
 
 # dir() shows all methods of a datatype
 # Example: dir(int), dir(str), dir(list) prints all available methods
-
