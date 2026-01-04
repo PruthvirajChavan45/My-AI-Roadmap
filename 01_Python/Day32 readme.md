@@ -71,4 +71,3 @@ st.write(books)
 
 Day 32 was very productive!  
 I learned how to build a mini Library Management application that runs in **terminal** and also as a **web app** using Streamlit. JSON was used as a lightweight database and this project helped me understand Python CRUD, UI rendering, data persistence, and how to manage separate interfaces in a single project.
-
