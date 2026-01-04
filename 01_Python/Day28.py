@@ -62,6 +62,3 @@ print(obj._salary)            # Allowed but not recommended
 # PRIVATE ACCESS (Not allowed directly)
 print("\nPrivate Access:")
 print(obj.__balance)        # Error: Attribute not found
-
-
-
