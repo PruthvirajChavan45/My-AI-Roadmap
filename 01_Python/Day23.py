@@ -100,4 +100,3 @@
 
 with open("Python/Day19.py",'r') as fs:
      print(fs.read())
-
