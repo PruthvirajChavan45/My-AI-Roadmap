@@ -6,6 +6,7 @@
 #            is not known in advance.
 
 
+
 #.....example......
 
 # n = int(input("Enter number: "))
