@@ -172,6 +172,7 @@ in Set A but not in Set B AND Set B but not in Set A (double difference)."""
 # print("Elements only in B:", B - A)
 
 
+
 """.....20) Convert a set of mixed values into a sorted list."""
 
 a = {10, "apple", 5, "cat"}
