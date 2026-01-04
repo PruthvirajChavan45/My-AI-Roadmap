@@ -145,5 +145,3 @@ for i in d.keys():
     if i in b: 
         j.append(i)
 print(j)
-
-
