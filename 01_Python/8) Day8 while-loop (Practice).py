@@ -85,9 +85,3 @@ if extract == copy:
 else: 
     print("Your number is not automorphic")
 
-
-
-
-
-
-
