@@ -64,7 +64,6 @@
 # print(a)
 
 
-
 #.....4) Selection Sort.....
 """
     sort the list by selecting the smallest element in each
