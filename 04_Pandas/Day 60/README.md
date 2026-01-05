@@ -15,12 +15,14 @@ Today marks my **first day of learning Pandas**, a powerful and essential Python
 └── Day 60/
     ├── Pandas_Introduction.ipynb
     ├── DataFrame_Basics.ipynb
-    └── README.md
+    ├── README.md
+    └── Tasks.ipynb 
 ```
 
 ### 📁 Notebook Structure
 1. **Pandas Introduction**  
 2. **DataFrame Basics**
+3. **Tasks**
 
 ---
 
