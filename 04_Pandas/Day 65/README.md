@@ -152,5 +152,4 @@ Day 6 strengthened my understanding of **data integration in Pandas**, which is 
 ---
 
 ✅ **Day 6 of Pandas Completed Successfully 🚀**
-```
 
