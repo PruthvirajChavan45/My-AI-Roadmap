@@ -124,5 +124,4 @@ Day 1 built a strong foundation in **Seaborn and relational plotting**, preparin
 ---
 
 ✅ **Day 1 of Seaborn Completed Successfully 🚀**  
-```
 
