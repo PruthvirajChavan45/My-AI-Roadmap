@@ -2,13 +2,13 @@
 
 ## 📌 Topic: Logical Functions in Excel  
 
-On Day 3, I learned **Logical Functions**, which are used to make decisions in Excel based on conditions. These functions are extremely important for data analysis, reporting, and business logic implementation.
+On Day 3, I learned **Logical Functions**, which are used to apply conditions and decision-making logic in Excel. These functions are widely used in real-world reporting, analysis, and automation tasks.
 
 ---
 
 ## 🔹 IF Function  
 
-The `IF` function checks a condition and returns different results based on whether the condition is TRUE or FALSE.
+The `IF` function evaluates a condition and returns different results based on TRUE or FALSE.
 
 **Syntax:**
 ```
@@ -22,38 +22,54 @@ The `IF` function checks a condition and returns different results based on whet
 
 Used for:
 - Result calculation  
-- Status identification  
+- Status assignment  
 - Conditional labeling  
+
+---
+
+## 🔹 Nested IF  
+
+Nested IF is used when **multiple conditions** need to be checked using IF inside another IF.
+
+**Example:**
+```
+=IF(A1 >= 90, "A",
+   IF(A1 >= 75, "B",
+      IF(A1 >= 60, "C", "Fail")))
+```
+
+Used when:
+- Multiple decision levels are required  
+- Grading systems  
+- Performance categorization  
+
+⚠️ Can become complex if overused.
 
 ---
 
 ## 🔹 AND Function  
 
-The `AND` function checks multiple conditions and returns TRUE only if **all conditions are true**.
+The `AND` function returns TRUE only when **all conditions are true**.
 
 **Example:**
 ```
 =AND(A1 >= 40, B1 >= 75)
 ```
 
-Used when multiple rules must be satisfied.
-
 ---
 
 ## 🔹 OR Function  
 
-The `OR` function returns TRUE if **any one condition is true**.
+The `OR` function returns TRUE when **any one condition is true**.
 
 **Example:**
 ```
 =OR(A1 >= 90, B1 = "Yes")
 ```
 
-Used when at least one condition is enough.
-
 ---
 
-## 🔹 Combining IF with AND / OR  
+## 🔹 IF with AND / OR  
 
 ```text
 =IF(AND(A1 >= 40, B1 >= 75), "Pass", "Fail")
@@ -63,13 +79,13 @@ Used when at least one condition is enough.
 =IF(OR(A1 >= 90, B1 = "Yes"), "Eligible", "Not Eligible")
 ```
 
-Used to apply complex business logic.
+Used for advanced decision-making rules.
 
 ---
 
 ## 🔹 IFS Function  
 
-The `IFS` function is used to test **multiple conditions without nested IFs**.
+The `IFS` function is an alternative to nested IF, making formulas cleaner and more readable.
 
 **Syntax:**
 ```
@@ -86,13 +102,11 @@ A1 < 60, "Fail"
 )
 ```
 
-Makes formulas cleaner and easier to read.
-
 ---
 
 ## 🔹 SWITCH Function  
 
-The `SWITCH` function compares one value against multiple options.
+The `SWITCH` function checks one value against multiple exact matches.
 
 **Syntax:**
 ```
@@ -109,29 +123,29 @@ The `SWITCH` function compares one value against multiple options.
 )
 ```
 
-Best used when checking **exact matches**.
+Best used when values are fixed and predefined.
 
 ---
 
 ## 🧠 Key Learnings (Day 3 – Excel)
 
-- Used IF for conditional decisions  
-- Applied AND / OR for multiple conditions  
+- Applied IF for basic decision-making  
+- Used Nested IF for multiple conditions  
+- Combined IF with AND / OR  
 - Simplified logic using IFS  
 - Used SWITCH for exact value matching  
-- Built structured decision-based formulas  
+- Built structured and dynamic Excel formulas  
 
 ---
 
 ## 🎯 Outcome  
 
-Day 3 improved my ability to:
-- Implement business rules in Excel  
-- Create dynamic reports  
-- Automate decision-making logic  
-- Write clean and readable formulas  
+Day 3 strengthened my understanding of **logical reasoning in Excel**, enabling me to:
+- Automate decisions  
+- Build smart spreadsheets  
+- Create rule-based reports  
+- Improve formula clarity  
 
 ---
 
-✅ **Phase 6 – Excel Day 3 Completed Successfully 🚀**  
-
+✅ **Phase 6 – Excel Day 3 Completed Successfully 🚀**
