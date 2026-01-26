@@ -40,7 +40,7 @@ In this module, I focused on:
 
 ## 📘 Day-wise Learning Breakdown
 
-### 01️⃣ Matplotlib Basics  
+### 01. Matplotlib Basics  
 📁 `Day_69_Matplotlib_Basics`
 
 - Introduction to data visualization
@@ -51,7 +51,7 @@ In this module, I focused on:
 
 ---
 
-### 02️⃣ Seaborn Introduction & Relational Plots  
+### 02. Seaborn Introduction & Relational Plots  
 📁 `Day_70_Seaborn_Introduction_and_Relational_Plots`
 
 - Seaborn overview
@@ -61,7 +61,7 @@ In this module, I focused on:
 
 ---
 
-### 03️⃣ Seaborn Categorical Plots  
+### 03. Seaborn Categorical Plots  
 📁 `Day_71_Seaborn_Categorical_Plots`
 
 - Bar plots and count plots
@@ -71,7 +71,7 @@ In this module, I focused on:
 
 ---
 
-### 04️⃣ Seaborn Distribution Plots  
+### 04. Seaborn Distribution Plots  
 📁 `Day_72_Seaborn_Distribution_Plots`
 
 - Histograms
@@ -81,7 +81,7 @@ In this module, I focused on:
 
 ---
 
-### 05️⃣ Seaborn Regression & Mixed Plots  
+### 05. Seaborn Regression & Mixed Plots  
 📁 `Day_73_Seaborn_Regression_and_Mixed_Plots`
 
 - Regression plots
@@ -91,7 +91,7 @@ In this module, I focused on:
 
 ---
 
-### 06️⃣ Seaborn Matrix & Grid Plots  
+### 06. Seaborn Matrix & Grid Plots  
 📁 `Day_74_Seaborn_Matrix_and_Grid_Plots`
 
 - Heatmaps
@@ -101,7 +101,7 @@ In this module, I focused on:
 
 ---
 
-### 07️⃣ Visualization Revision & Consolidation  
+### 07. Visualization Revision & Consolidation  
 📁 `Day_75_Matplotlib_and_Seaborn_Revision`
 
 - Complete visualization revision
