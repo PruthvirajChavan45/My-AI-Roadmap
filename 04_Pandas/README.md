@@ -126,8 +126,3 @@ After completing this module, I am confident in:
 - Solving analytical problems using Pandas
 
 ---
-
-📌 **Next Module:**  
-➡️ Matplotlib & Seaborn (Data Visualization)
-
-This roadmap reflects **industry-level learning progression** used by professional data analysts.
