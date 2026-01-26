@@ -8,7 +8,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ## 📂 Module Structure
 
-### 01️⃣ Pandas Basics
+### 01. Pandas Basics
 📁 `01_Pandas_Basics`
 
 - Pandas introduction
@@ -19,7 +19,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 02️⃣ Data Cleaning
+### 02. Data Cleaning
 📁 `02_Data_Cleaning`
 
 - Handling missing values
@@ -30,7 +30,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 03️⃣ Data Selection & Filtering
+### 03. Data Selection & Filtering
 📁 `03_Data_Selection_and_Filtering`
 
 - Column selection
@@ -41,7 +41,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 04️⃣ Sorting & Basic Statistics
+### 04. Sorting & Basic Statistics
 📁 `04_Sorting_and_Basic_Statistics`
 
 - Sorting values and indexes
@@ -52,7 +52,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 05️⃣ GroupBy & Aggregations
+### 05. GroupBy & Aggregations
 📁 `05_GroupBy_and_Aggregations`
 
 - GroupBy operations
@@ -63,7 +63,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 06️⃣ Merging, Joining & Concatenation
+### 06. Merging, Joining & Concatenation
 📁 `06_Merging_Joining_and_Concatenation`
 
 - Merge operations
@@ -73,7 +73,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 07️⃣ Time Series & Advanced Performance
+### 07. Time Series & Advanced Performance
 📁 `07_Time_Series_and_Advanced_Performance`
 
 - Date & time handling
@@ -84,7 +84,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 08️⃣ Real-World Pandas Project
+### 08. Real-World Pandas Project
 📁 `08_Pandas_Projects`
 
 - End-to-end data analysis project
@@ -94,7 +94,7 @@ Pandas is the core library used in **Data Analysis, Business Analytics, and Data
 
 ---
 
-### 09️⃣ Revision & Concept Consolidation
+### 09. Revision & Concept Consolidation
 📁 `09_Pandas_Revision`
 
 - Complete Pandas revision
