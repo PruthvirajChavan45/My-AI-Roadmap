@@ -57,5 +57,3 @@ The focus is on building strong numerical computing skills required for **Data A
 - Learning is tracked consistently with daily practice and structured commits.
 
 ---
-
-🧠 *This structure reflects real-world data analysis workflows and industry-oriented learning.*
