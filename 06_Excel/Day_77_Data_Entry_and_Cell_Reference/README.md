@@ -128,5 +128,4 @@ Day 2 strengthened my Excel foundation by improving:
 
 ---
 
-
 ✅ **Phase 6 – Excel Day 2 Completed Successfully 🚀**
